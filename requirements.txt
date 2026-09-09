@@ -1,0 +1,8 @@
+# AMD NPU Local Coding Agent
+# Install with: pip install -r requirements.txt
+
+# Microsoft Foundry Local SDK (Windows with NPU acceleration)
+foundry-local-sdk-winml
+
+# Note: Do NOT install both foundry-local-sdk AND foundry-local-sdk-winml
+# They have conflicting onnxruntime dependencies
