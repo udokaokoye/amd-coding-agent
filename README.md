@@ -1,4 +1,4 @@
-# 🧠 Local Coding Agent
+# 🦁 Leo Code
 
 **A coding assistant that runs 100% locally on your AMD Ryzen AI NPU.**
 

@@ -2,7 +2,7 @@
 # Run in PowerShell: .\setup.ps1
 
 Write-Host ""
-Write-Host "LOCAL CODING AGENT SETUP" -ForegroundColor Cyan
+Write-Host "LEO CODE SETUP" -ForegroundColor Cyan
 Write-Host "========================" -ForegroundColor Cyan
 Write-Host ""
 

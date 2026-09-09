@@ -1,6 +1,6 @@
 """
-Quick Demo Script - Shows NPU coding agent in action
-Perfect for short-form content recording
+Leo Code - Quick Demo Script
+Shows NPU coding agent in action, perfect for short-form content recording
 
 Run with: python demo.py <project_path>
 """
@@ -36,7 +36,7 @@ def main():
     print(f"""
 {Colors.CYAN}{Colors.BOLD}
     ╔═══════════════════════════════════════════════════╗
-    ║  🧠 LOCAL AI CODING AGENT                         ║
+    ║  🦁 LEO CODE                                      ║
     ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ║
     ║  Powered by AMD Ryzen AI NPU • 50 TOPS            ║
     ║  100% Local • Zero Cloud • Full Privacy           ║

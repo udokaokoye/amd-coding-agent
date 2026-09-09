@@ -1,5 +1,5 @@
 """
-Local Coding Agent - Runs on AMD Ryzen AI NPU
+Leo Code - Runs on AMD Ryzen AI NPU
 Built for AMD collaboration content by Levi Okoye
 
 This agent reads your codebase and answers questions about it,
@@ -287,7 +287,7 @@ def print_banner():
     print("""
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║   🧠  LOCAL CODING AGENT                                     ║
+║   🦁  LEO CODE                                               ║
 ║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║
 ║   Powered by AMD Ryzen AI NPU                                ║
 ║   Running 100% locally - your code never leaves this PC      ║
