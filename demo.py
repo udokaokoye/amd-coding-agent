@@ -64,7 +64,7 @@ def main():
     
     model = manager.catalog.get_model("phi-3.5-mini")
     
-    if not model.is_cached():
+    if not model.is_cached:
         print(f"{Colors.GREEN}⬇️  Downloading phi-3.5-mini...{Colors.END}")
         model.download(lambda p: print(f"\r   {p:.0f}%", end="", flush=True))
         print()

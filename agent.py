@@ -171,7 +171,7 @@ class CodingAgent:
         print(f"📦 Loading model: {MODEL_ALIAS}")
         model = manager.catalog.get_model(MODEL_ALIAS)
         
-        if not model.is_cached():
+        if not model.is_cached:
             print(f"⬇️  Downloading {MODEL_ALIAS}...")
             model.download(lambda p: print(f"\r   Progress: {p:.0f}%", end="", flush=True))
             print()
