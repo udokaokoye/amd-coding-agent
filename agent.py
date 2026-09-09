@@ -264,9 +264,10 @@ You are running 100% locally - no data leaves this machine."""
         response_text = ""
         
         for chunk in self.chat_client.complete_streaming_chat(messages):
-            content = chunk.choices[0].delta.content or ""
-            print(content, end="", flush=True)
-            response_text += content
+            if chunk.choices:
+                content = chunk.choices[0].delta.content or ""
+                print(content, end="", flush=True)
+                response_text += content
             
         print("\n")
         

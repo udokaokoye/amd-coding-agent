@@ -120,8 +120,9 @@ Keep responses short and punchy - this is for a demo video."""
         ]
         
         for chunk in chat.complete_streaming_chat(messages):
-            content = chunk.choices[0].delta.content or ""
-            print(content, end="", flush=True)
+            if chunk.choices:
+                content = chunk.choices[0].delta.content or ""
+                print(content, end="", flush=True)
         
         print()
         
